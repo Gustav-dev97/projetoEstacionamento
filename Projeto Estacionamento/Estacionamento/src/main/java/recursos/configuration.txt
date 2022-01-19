@@ -1,0 +1,9 @@
+url=jdbc:mysql://localhost:3306/estacionamento
+usuario=root
+senha=
+insertMov=insert into tb_movimentacao (placa,marca,modelo,cor,data_entrada) values (?,?,?,?,?)
+atualizaVaga=update tb_status_vaga set ocupadas = ? where id=1
+consultaOcupadas=select ocupadas from tb_status_vaga where id=1
+getMovAberta=select * from tb_movimentacao where data_saida is null and placa = ?
+updateMov=update tb_movimentacao set valor = ?, data_saida = ? where data_saida is null and placa = ?
+selectMovRelatorio=select placa, data_entrada, data_saida, valor from tb_movimentacao where data_saida is not null and data_saida >= ? and data_saida <= ?;
