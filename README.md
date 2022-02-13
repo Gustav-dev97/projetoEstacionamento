@@ -1,5 +1,5 @@
 # projetoEstacionamento
-Projeto de demonstração em JAVA, para administração e controle de um estacionamento:
+Projeto de demonstração em JAVA desenvolvido durante o curso da IMPACTA, para administração e controle de um estacionamento:
 
 Este software de demonstração tem como objetivo auxiliar a administração e 
 controle de um estacionamento, possuindo as opções de cadastrar a entrada e saída veículos bem como o valor a ser pago,
